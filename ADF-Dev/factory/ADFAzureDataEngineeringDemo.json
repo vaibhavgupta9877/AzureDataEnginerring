@@ -1,0 +1,9 @@
+{
+	"name": "ADFAzureDataEngineeringDemo",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a0a26059-3403-42db-a0bd-d6dcdb207fdb",
+		"tenantId": "45007933-edf0-4605-8c19-83ff82416cf8"
+	}
+}
