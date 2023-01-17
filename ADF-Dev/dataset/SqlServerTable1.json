@@ -1,0 +1,61 @@
+{
+	"name": "SqlServerTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LocalSqlServer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "Updated_at",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Company",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Crunchbase_Url",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Last_Valuation_Billion",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Date_Joined",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Year_Joined",
+				"type": "nvarchar"
+			},
+			{
+				"name": "City",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Country",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Industry",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Investors",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Company_Website",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "unicorns"
+		}
+	}
+}
