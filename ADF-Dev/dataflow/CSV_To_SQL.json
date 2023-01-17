@@ -5,10 +5,6 @@
 		"typeProperties": {
 			"sources": [
 				{
-					"dataset": {
-						"referenceName": "Unicorns_Raw",
-						"type": "DatasetReference"
-					},
 					"name": "DatalakeFile"
 				}
 			],
@@ -37,8 +33,7 @@
 				"          {Company Website} as string",
 				"     ),",
 				"     allowSchemaDrift: true,",
-				"     validateSchema: false,",
-				"     ignoreNoFilesFound: false) ~> DatalakeFile",
+				"     validateSchema: false) ~> DatalakeFile",
 				"DatalakeFile sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     deletable:false,",

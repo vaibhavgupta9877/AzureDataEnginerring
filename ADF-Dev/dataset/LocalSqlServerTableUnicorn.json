@@ -1,5 +1,5 @@
 {
-	"name": "SqlServerTable1",
+	"name": "LocalSqlServerTableUnicorn",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LocalSqlServer",
